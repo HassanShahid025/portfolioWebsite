@@ -1,0 +1,167 @@
+@media screen and (max-width: 610px){
+/************************ header ***************************/
+    .section{
+        min-height: 100vh ;
+        max-width: 100wh;
+        overflow-x: hidden;
+    }
+
+    .control{
+        margin-bottom: 0;
+        margin: 2rem .3rem;
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .controls{
+        z-index: 0;
+        position: fixed;
+        top: auto; 
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: row;
+        height: 80px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: #262525;
+    }
+
+    .left-main{
+        display: none;
+    }
+    
+    .image-container{
+        width: 75%;
+        height: 80%;
+        margin-left: 0;
+        margin-bottom: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-content{
+        grid-template-columns: 1fr;
+    }
+
+    .right-header{
+        grid-row: 1;
+        margin: 2rem auto;
+    }
+
+/************************ about ***************************/  
+
+    .main-title{
+        margin: 0 3rem;
+    }
+
+    .about-container{
+        grid-template-columns: 1fr;
+    }    
+
+    .left-container{
+        margin-top: 4rem;
+    }
+
+    .right-container{
+        grid-template-columns: 1fr;
+        margin: 2rem;
+    }
+
+    .info{
+        margin: 3rem 0;
+        padding: 5rem;
+    }
+
+    .progress-bars{
+        grid-template-columns: 1fr;
+    }
+
+    .timelines{
+        grid-template-columns: 1fr;
+        margin-bottom: 6rem !important;
+    }
+
+    .timelines:last-child{
+        margin-bottom: 6rem;
+    }
+
+    .main-title{
+        margin: 0;
+        width: 100%;
+        /* padding-left: 8rem; */
+    }
+
+    .main-title h2{
+        font-size: 2.5rem;
+        text-overflow:unset;
+    }
+
+    .back-text{
+        font-size: 5.5rem;
+        display: none;
+        
+    }
+
+    .back-text,.about-stats{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .progress-bars{
+        padding-left: 2rem;
+    }
+
+    .left-container h2{
+        font-size: 1.5rem;
+    }
+
+/*********************************  PORTFOLIO SECTION ******************************/    
+    .porfolios{
+        grid-template-columns: 1fr;
+        margin-top: 5rem;
+        padding-bottom: 6rem;
+        margin-right:1.5rem;
+    }
+/*********************************  BLOGS SECTION ******************************/
+
+    .blogs{
+        grid-template-columns: 1fr;
+        padding-bottom: 15rem;
+        padding-top: 3rem;
+
+    }
+
+
+    .blog-tem{
+        margin: 3rem auto
+    }
+
+    .theme-btn{
+        top: 12%;
+        height:40px ;
+        width: 40px;
+    }
+
+/*********************************  CONTACT SECTION ******************************/
+
+    .contact-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .contact-one-line{
+        display: block;
+    }
+
+    .contact-one-line input{
+        width: 100%;
+    }
+
+    .contact-right{
+        margin: 3rem 0;
+    }
+}
